@@ -1,0 +1,27 @@
+.app {
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 26px;
+}
+
+.form-inline {
+    display: inline-block;
+}
+.list-item {
+    display: inline-block;
+}
+.delete-button {
+    float: right;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    color:#f00;
+    font-weight: bold;
+}
